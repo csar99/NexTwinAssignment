@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Esri.ArcGISMapsSDK.Components;
 
 public class DropDownMenu : MonoBehaviour
 {
     [SerializeField] private TMP_Text numberText;
-
+    ArcGISLocationComponent locations = new ArcGISLocationComponent();
    public void DropdownOptions(int index)
     {
         switch (index)
@@ -17,6 +18,7 @@ public class DropDownMenu : MonoBehaviour
                
             case 1:
                 numberText.text = "Location 1";
+                
                 break;
 
             case 2:
