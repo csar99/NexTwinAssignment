@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Esri.ArcGISMapsSDK.Components;
+using Esri.GameEngine.Geometry;
+using Esri.ArcGISMapsSDK.Utils.GeoCoord;
 
 public class DropDownMenu : MonoBehaviour
 {
-    [SerializeField] private TMP_Text numberText;
-    ArcGISLocationComponent locations = new ArcGISLocationComponent();
-   public void DropdownOptions(int index)
+    [SerializeField] private TMP_Text numberText;  
+    public ArcGISPoint geoPos;
+    public void DropdownOptions(int index)
     {
+        
         switch (index)
         {
             case 0: 
@@ -18,6 +21,7 @@ public class DropDownMenu : MonoBehaviour
                
             case 1:
                 numberText.text = "Location 1";
+                geoPos = new ArcGISPoint((double)-90.51, (double)41.49);
                 
                 break;
 
