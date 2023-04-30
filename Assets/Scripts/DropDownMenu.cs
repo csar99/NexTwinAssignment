@@ -9,7 +9,7 @@ using Esri.ArcGISMapsSDK.Utils.GeoCoord;
 public class DropDownMenu : MonoBehaviour
 {
     [SerializeField] private TMP_Text numberText;  
-    public ArcGISPoint geoPos;
+    
     public void DropdownOptions(int index)
     {
         
@@ -21,7 +21,7 @@ public class DropDownMenu : MonoBehaviour
                
             case 1:
                 numberText.text = "Location 1";
-                geoPos = new ArcGISPoint((double)-90.51, (double)41.49);
+               
                 
                 break;
 
