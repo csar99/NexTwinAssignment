@@ -191,6 +191,93 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &259311195
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 418045140071924368, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_Name
+      value: PopUp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -920
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 105.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1837
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.76604456
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6427876
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -14.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924381, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_Text
+      value: 'THIS IS ANOTHER RANDOM BUILDING IN
+
+        NYC
+
+        ||
+
+        ||
+
+        \/'
+      objectReference: {fileID: 0}
+    - target: {fileID: 418045140071924381, guid: 3503d70277ec8884781fdefce0f23315,
+        type: 3}
+      propertyPath: m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3503d70277ec8884781fdefce0f23315, type: 3}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,12 +360,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1341, y: 108, z: -3053}
+  m_LocalRotation: {x: -0, y: 0.6427879, z: -0, w: 0.7660443}
+  m_LocalPosition: {x: -1090, y: 48, z: 1726}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 599066460}
+  - {fileID: 694156795}
   m_Father: {fileID: 1825253397}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -328,12 +415,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position:
-    x: -74.01204640796006
-    y: 40.69921073578231
-    z: 108
+    x: -74.00979163659692
+    y: 40.731750246280534
+    z: 48
     SRWkid: 4326
   rotation:
-    Heading: 0
+    Heading: 80.00003042420954
     Pitch: 90
     Roll: 0
 --- !u!114 &330585549
@@ -369,15 +456,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IsInitialized: 1
   m_LocalPosition:
-    x: -8238983.318702246
-    y: 108
-    z: 4968076.040475636
+    x: -8238732.318702246
+    y: 48
+    z: 4972855.040475636
   m_LocalRotation:
     value:
       x: 0
-      y: 0
+      y: 0.6427878
       z: 0
-      w: 1
+      w: 0.76604426
   m_LocalScale:
     x: 1
     y: 1
@@ -409,7 +496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camObject: {fileID: 330585543}
-  altitudeText: {fileID: 1362629954}
+  altitudeText: {fileID: 1873972411}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,288 +612,7 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
---- !u!224 &599066460 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3149571468401738059, guid: 6c0f47d31117fcb469da715f1de24d9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 3149571467910284823}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &832575517
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 832575519}
-  - component: {fileID: 832575518}
-  m_Layer: 0
-  m_Name: Global Volume
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &832575518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832575517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: a6560a915ef98420e9faacc1c7438823, type: 2}
---- !u!4 &832575519
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832575517}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &874930295 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-    type: 3}
-  m_PrefabInstance: {fileID: 418045140946821861}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1362629954 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3149571468695147349, guid: 6c0f47d31117fcb469da715f1de24d9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 3149571467910284823}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1825253394
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1825253397}
-  - component: {fileID: 1825253396}
-  - component: {fileID: 1825253395}
-  m_Layer: 0
-  m_Name: ArcGISMap
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1825253395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825253394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c703502c1493f5b4eb3e95b2efe0271e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  apiKey: AAPK3ab8fdcff00546d09245426237103363DY4RgOhx-sbxdGsNb7ZuBCdvBnmZW-LQyEZ5rn4hzsgYXG3bArp9YIWo1wIjtBEB
-  basemap: https://www.arcgis.com/home/item.html?id=695aef1564e84c06833542eb4d8c02d3
-  basemapType: 0
-  basemapAuthentication:
-    ConfigurationIndex: -1
-  elevation: 
-  elevationAuthentication:
-    ConfigurationIndex: -1
-  elevationSources:
-  - Name: 
-    Type: 0
-    Source: https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer
-    IsEnabled: 1
-    Authentication:
-      ConfigurationIndex: -1
-  enableExtent: 1
-  extent:
-    GeographicCenter:
-      x: -74
-      y: 40.72
-      z: 0
-      SRWkid: 4326
-    ExtentShape: 2
-    ShapeDimensions:
-      x: 5000
-      y: 0
-  layers:
-  - Name: 04 - New York Buildings
-    Type: 1
-    Source: https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/Buildings_NewYork_17/SceneServer
-    Opacity: 1
-    IsVisible: 1
-    Authentication:
-      ConfigurationIndex: -1
-  - Name: 03 - New York Population Density
-    Type: 0
-    Source: https://tiles.arcgis.com/tiles/4yjifSiIG17X0gW4/arcgis/rest/services/NewYorkCity_PopDensity/MapServer
-    Opacity: 1
-    IsVisible: 1
-    Authentication:
-      ConfigurationIndex: -1
-  - Name: 02 - New York Industrial Areas
-    Type: 0
-    Source: https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/New_York_Industrial/MapServer
-    Opacity: 0.6
-    IsVisible: 1
-    Authentication:
-      ConfigurationIndex: -1
-  - Name: 01 - New York Transit Frequency
-    Type: 0
-    Source: https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/UrbanObservatory_NYC_TransitFrequency/MapServer
-    Opacity: 0.9
-    IsVisible: 1
-    Authentication:
-      ConfigurationIndex: -1
-  originPosition:
-    x: -74
-    y: 40.72
-    z: 0
-    SRWkid: 4326
-  mapType: 1
-  editorModeEnabled: 1
-  dataFetchWithSceneView: 0
-  rebaseWithSceneView: 0
-  meshCollidersEnabled: 0
-  configurations: []
-  RootChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  version: 1
---- !u!114 &1825253396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825253394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 265b6a392115d8a4aa7154d8c9356e26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LocalPosition:
-    x: -8237642.318702245
-    y: 0
-    z: 4971129.040475637
-  m_LocalRotation:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 1
---- !u!4 &1825253397
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825253394}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 330585546}
-  - {fileID: 874930295}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &418045140946821861
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1825253397}
-    m_Modifications:
-    - target: {fileID: 418045140071924368, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_Name
-      value: PopUp1
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1365.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 52
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2798.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9924716
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.12247553
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -14.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 418045140071924370, guid: 3503d70277ec8884781fdefce0f23315,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3503d70277ec8884781fdefce0f23315, type: 3}
---- !u!1001 &3149571467910284823
+--- !u!1001 &694156794
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -928,6 +734,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3149571468603804562, guid: 6c0f47d31117fcb469da715f1de24d9e,
+        type: 3}
+      propertyPath: m_text
+      value: Location 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149571468603804564, guid: 6c0f47d31117fcb469da715f1de24d9e,
+        type: 3}
+      propertyPath: m_Name
+      value: Location3
+      objectReference: {fileID: 0}
     - target: {fileID: 3149571469046084257, guid: 6c0f47d31117fcb469da715f1de24d9e,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -940,3 +756,208 @@ PrefabInstance:
       objectReference: {fileID: 410087039}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c0f47d31117fcb469da715f1de24d9e, type: 3}
+--- !u!224 &694156795 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3149571468401738059, guid: 6c0f47d31117fcb469da715f1de24d9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 694156794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &832575517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832575519}
+  - component: {fileID: 832575518}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &832575518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832575517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: a6560a915ef98420e9faacc1c7438823, type: 2}
+--- !u!4 &832575519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832575517}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1825253394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1825253397}
+  - component: {fileID: 1825253396}
+  - component: {fileID: 1825253395}
+  m_Layer: 0
+  m_Name: ArcGISMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1825253395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825253394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c703502c1493f5b4eb3e95b2efe0271e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  apiKey: AAPK3ab8fdcff00546d09245426237103363DY4RgOhx-sbxdGsNb7ZuBCdvBnmZW-LQyEZ5rn4hzsgYXG3bArp9YIWo1wIjtBEB
+  basemap: https://www.arcgis.com/home/item.html?id=695aef1564e84c06833542eb4d8c02d3
+  basemapType: 0
+  basemapAuthentication:
+    ConfigurationIndex: -1
+  elevation: 
+  elevationAuthentication:
+    ConfigurationIndex: -1
+  elevationSources:
+  - Name: 
+    Type: 0
+    Source: https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer
+    IsEnabled: 1
+    Authentication:
+      ConfigurationIndex: -1
+  enableExtent: 1
+  extent:
+    GeographicCenter:
+      x: -74
+      y: 40.72
+      z: 0
+      SRWkid: 4326
+    ExtentShape: 2
+    ShapeDimensions:
+      x: 5000
+      y: 0
+  layers:
+  - Name: 04 - New York Buildings
+    Type: 1
+    Source: https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/Buildings_NewYork_17/SceneServer
+    Opacity: 1
+    IsVisible: 1
+    Authentication:
+      ConfigurationIndex: -1
+  - Name: 03 - New York Population Density
+    Type: 0
+    Source: https://tiles.arcgis.com/tiles/4yjifSiIG17X0gW4/arcgis/rest/services/NewYorkCity_PopDensity/MapServer
+    Opacity: 1
+    IsVisible: 1
+    Authentication:
+      ConfigurationIndex: -1
+  - Name: 02 - New York Industrial Areas
+    Type: 0
+    Source: https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/New_York_Industrial/MapServer
+    Opacity: 0.6
+    IsVisible: 1
+    Authentication:
+      ConfigurationIndex: -1
+  - Name: 01 - New York Transit Frequency
+    Type: 0
+    Source: https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/UrbanObservatory_NYC_TransitFrequency/MapServer
+    Opacity: 0.9
+    IsVisible: 1
+    Authentication:
+      ConfigurationIndex: -1
+  originPosition:
+    x: -74
+    y: 40.72
+    z: 0
+    SRWkid: 4326
+  mapType: 1
+  editorModeEnabled: 1
+  dataFetchWithSceneView: 0
+  rebaseWithSceneView: 0
+  meshCollidersEnabled: 1
+  configurations: []
+  RootChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  version: 1
+--- !u!114 &1825253396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825253394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265b6a392115d8a4aa7154d8c9356e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalPosition:
+    x: -8237642.318702245
+    y: 0
+    z: 4971129.040475637
+  m_LocalRotation:
+    value:
+      x: 0
+      y: 0
+      z: 0
+      w: 1
+--- !u!4 &1825253397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825253394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 330585546}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1873972411 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3149571468695147349, guid: 6c0f47d31117fcb469da715f1de24d9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 694156794}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

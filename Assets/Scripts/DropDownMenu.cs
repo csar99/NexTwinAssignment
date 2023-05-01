@@ -15,27 +15,22 @@ public class DropDownMenu : MonoBehaviour
         
         switch (index)
         {
-            case 0: 
-                numberText.text = "No location Selected";
+            case 0:
+                numberText.text = "Please select a location";
                 break;
                
             case 1:
-                numberText.text = "Location 1";
-               
-                
+                numberText.text = "Location 1 Selected";              
                 break;
 
             case 2:
-                numberText.text = "Location 2";
+                numberText.text = "Location 2 Selected";
                 break ;
 
             case 3:
-                numberText.text = "Location 3";
+                numberText.text = "Location 3 Selected";
                 break;
 
-            case 4:
-                numberText.text = "Location 4";
-                break;
         }
     }
 }
