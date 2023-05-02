@@ -1,4 +1,4 @@
 # NexTwinAssignment
-Press "Right Click" and move the mouse to lok around.
-Use WASD keys to move.
-User mouse wheel to zoom in or out.
+Press "Right Click" and move the mouse to lok around.<br>
+Use WASD keys to move.<br>
+Use mouse wheel to zoom in or out.<br>
